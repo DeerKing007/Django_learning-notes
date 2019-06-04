@@ -529,23 +529,3 @@ def index(request):
 <a href="{% url 'reverse_app:index' %}">反向解析</a>
 ```
 
-
-
-
-
-
-
-**作业：**
-
-技术点熟悉，练习
-
-登录  注册
-
-注册后自动跳转登录页面
-
-登录后记住我 一周  -- cookie
-
-强制登录  -- session
-
-
-
