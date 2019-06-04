@@ -127,6 +127,11 @@ python manage.py runserver
 
 ![Pycharm创建项目](.\Django-notes-pic\Pycharm创建项目.png)
 
+```
+注意：Django在Mac上安装报错找不到manage.py文件时候先执行下面两句命令
+python manage.py migrate
+python manage.py runserver
+```
 
 
 #### 3、项目目录结构
