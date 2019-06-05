@@ -18,7 +18,7 @@
 
 ##### 2.1 导入第三方库
 
-![1532598642901](Django-notes-pic\1532598642901.png) 
+![1532598642901](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/1532598642901.png) 
 
 将文件拷贝到自己的项目中，2个py文件，1个data文件夹，保证三个处于项目中的统一个目录中。
 
@@ -597,7 +597,7 @@ class User(models.Model):
         return self.name
 ```
 
-![1531812582045](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\修改admin后台User显示.png)
+![1531812582045](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/修改admin后台User显示.png)
 
 
 
@@ -605,7 +605,7 @@ class User(models.Model):
 
 - 定制前：
 
-![1531813791353](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\操作选项位置.png)
+![1531813791353](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/操作选项位置.png)
 
 **补充：**注册admin的另一种方式 `装饰器`
 
@@ -621,7 +621,7 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制后：
 
-![1531814252335](C:\Users\ADMINI~1\AppData\Local\Temp\1531814252335.png)
+![1531814252335](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/1531814252335.png)
 
 
 
@@ -631,13 +631,13 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制前：
 
-![1531814668417](C:\Users\ADMINI~1\AppData\Local\Temp\1531814668417.png)
+![1531814668417](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/1531814668417.png)
 
 
 
 - 定制后：
 
-![1531814709514](C:\Users\ADMINI~1\AppData\Local\Temp\1531814709514.png)
+![1531814709514](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/1531814709514.png)
 
 
 
@@ -673,7 +673,7 @@ class UserAdmin(admin.ModelAdmin):
     list_display = ['other_name','other_path'] # 定制显示的列名的别名 注意使用的是other_name
 ```
 
-![1531815337945](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\列名别名.png)
+![1531815337945](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/列名别名.png)
 
 
 
@@ -681,13 +681,13 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制前：
 
-![1531815869870](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\定制Model名)
+![1531815869870](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/定制Model名)
 
 
 
 - 定制后：
 
-![1531815931757](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\model名)
+![1531815931757](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/model名)
 
 - 代码：
 
@@ -706,13 +706,13 @@ class User(models.Model):
 
 - 定制前：
 
-![1531816162933](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\定制查询栏前)
+![1531816162933](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/定制查询栏前)
 
 
 
 - 定制后：
 
-![1531816244585](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\查询栏)
+![1531816244585](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/查询栏)
 
 - 代码：
 
@@ -729,13 +729,13 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制前：
 
-![1531816470130](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\定制分页前)
+![1531816470130](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/定制分页前)
 
 
 
 - 定制后：
 
-![1531816419699](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\分页)
+![1531816419699](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/分页)
 
 
 
@@ -743,13 +743,13 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制前：
 
-![1531816603764](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\定制搜索框前)
+![1531816603764](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/定制搜索框前)
 
 
 
 - 定制后：
 
-![1531816673645](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\搜索框)
+![1531816673645](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/搜索框)
 
 
 
@@ -766,13 +766,13 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制前：
 
-![1531818430016](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\定制可操作的列前)
+![1531818430016](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/定制可操作的列前)
 
 
 
 - 定制后：
 
-![1531818482886](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\可操作的列)
+![1531818482886](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/可操作的列)
 
 
 
@@ -789,13 +789,13 @@ class UserAdmin(admin.ModelAdmin):
 
 - 定制前：
 
-![1531817042108](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\定制分组前)
+![1531817042108](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/定制分组前)
 
 
 
 - 定制后：
 
-![1531817077831](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\分组显示)
+![1531817077831](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/分组显示)
 
 
 
@@ -816,7 +816,7 @@ class UserAdmin(admin.ModelAdmin):
 
 ##### 3.10  关联显示
 
-![1531819157050](C:\Users\ADMINI~1\AppData\Local\Temp\1531819157050.png)
+![1531819157050](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/1531819157050.png)
 
 
 
