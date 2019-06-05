@@ -7,7 +7,7 @@
 
 当用户请求一个页面时，Django 把请求的数据包装成一个 HttpRequest 对象，然后 Django 加载对应的view 函数，把这个 HttpRequest 对象作为第一个参数传给 view 函数。任何 view 函数都应该返回一个 HttpResponse 对象。 
 
-![请求与响应](Django-notes-pic\请求与响应.jpg)
+![请求与响应](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/请求与响应.jpg)
 
 - 客户端发送一个请求，并携带参数到达服务器端
 - 服务器会接收请求，并通过request对象获取参数
@@ -215,7 +215,7 @@ def index(request):
     request.COOKIES.get("age") 
 ```
 
-![cookie过程](Django-notes-pic\cookie过程.png)
+![cookie过程](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/cookie过程.png)
 
 
 
