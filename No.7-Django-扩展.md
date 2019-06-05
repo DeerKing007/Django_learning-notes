@@ -584,7 +584,7 @@ urlpatterns = [
 
 ##### 3.1 User（Models）管理页面
 
-![1531812346521](E:\Python Web\Python-Web-Lee\05 Django\Django-notes-pic\admin界面.png)
+![1531812346521](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/admin界面.png)
 
 修改后台列表显示User Object，改为更为直观的信息：
 
