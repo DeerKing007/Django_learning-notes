@@ -101,7 +101,7 @@ python -m venv  TestDemo
 
 #### 1、命令行创建项目
 
-安装 Django 之后，在虚拟环境的Scripts目录下已经有了可用的管理工具 django-admin.py/django-admin.exe。我们可以使用 django-admin 来创建一个项目: ![scripts目录](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/scripts%E7%9B%AE%E5%BD%95.png)
+安装 Django 之后，在虚拟环境的Scripts目录下已经有了可用的管理工具 django-admin.py/django-admin.exe。我们可以使用 django-admin 来创建一个项目: ![scripts目录](https://github.com/DeerKing007/Django_learning-notes/Django_learning-notes/blob/master/Django-notes-pic/scripts%E7%9B%AE%E5%BD%95.png)
 
 - 使用 django-admin 来创建 HelloWorld 项目： 
 
