@@ -1,0 +1,67 @@
+安装django:  pip3 install django==2.0.6
+	         python  setup.py install
+	         pip3 install .whl
+
+
+安装虚拟环境：
+	pip3 install virtualenv
+创建虚拟环境
+	virtualenv Test
+
+激活虚拟环境
+	cd ...
+	cd Scripts
+	activate
+
+安装依赖包
+	pip install django==2.0.6
+	pip install mysqlclient
+
+	退出环境： deactivate
+
+虚拟环境管理工具
+1、安装 pip3 install virtualenvwrapper-win
+2、配置WORK_HOME : 默认创建的虚拟环境的存储目录  E：\...
+3、创建虚拟环境 mkvirtualenv TestDemo 自动激活
+	deactivate 退出
+
+	打开虚拟环境workon TestDemo即可
+
+django_admin startproject HelloWorld           # python manage.py runserver 运行服务
+cd HelloWord 
+python manage.py startapp helloapp
+
+pycharm创建项目：
+	File-New Project - Django - 项目名称   -- existing interpreter   找到虚拟环境python.exe 解释器
+
+__init.py__表示是一个包
+manage.py与django交互的一个管理文件
+urls.py 路由配置
+wsgi web服务的入口
+settings.py 配置文件
+
+显示一点自己的内容
+创建一个view.py文件
+from django.shortcuts import HttpResponse
+
+def index(request):
+	return HttpResponse("<h1>测试显示自己的内容</h1>")    #用户请求服务后 响应请求
+
+urls.py配置
+
+from django.urls import path,re_path,include
+from . import view
+urlpatterns =[
+	path('index/',view.index)
+]
+
+访问：localhost:8000/index
+
+模板：
+在根目录下创建templates目录 添加index.html文件
+
+
+view.py
+
+def index(request):
+	return render(request,'index.html')
