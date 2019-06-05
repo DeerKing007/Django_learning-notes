@@ -1,5 +1,3 @@
-w3c学习教程-- https://www.w3cschool.cn/django/django-first-app.html
-
 1、安装Django 
 	(1)先安装Python环境
 	(2)安装对应的Django版本 -- 下载压缩包 https://www.djangoproject.com/download/
@@ -189,17 +187,3 @@ w3c学习教程-- https://www.w3cschool.cn/django/django-first-app.html
 		(3)
 
 9、Admin管理工具
-
-
-
-
-
-
-
-
-
-
-
-
-
-
