@@ -90,7 +90,7 @@ JSON有两种结构：
 
 #### 3、XML与JSON对比
 
-![1534181711280](Ajax_pic\1534181711280.png)
+![1534181711280](https://github.com/DeerKing007/Django_learning_notes/blob/master/Ajax_Notes/Ajax_pic/1534181711280.png)
 
 
 
