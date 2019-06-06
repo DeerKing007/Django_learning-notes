@@ -101,7 +101,7 @@ python -m venv  TestDemo
 
 #### 1、命令行创建项目
 
-安装 Django 之后，在虚拟环境的Scripts目录下已经有了可用的管理工具 django-admin.py/django-admin.exe。我们可以使用 django-admin 来创建一个项目: ![scripts目录](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/scripts%E7%9B%AE%E5%BD%95.png)
+安装 Django 之后，在虚拟环境的Scripts目录下已经有了可用的管理工具 django-admin.py/django-admin.exe。我们可以使用 django-admin 来创建一个项目: ![scripts目录](https://github.com/DeerKing007/Django_learning_notes/blob/master/Django_learning-notes/Django-notes-pic/scripts%E7%9B%AE%E5%BD%95.png)
 
 - 使用 django-admin 来创建 HelloWorld 项目： 
 
@@ -117,7 +117,7 @@ python manage.py runserver
 
 - 在浏览器输入你服务器的ip及端口号 
 
-![1531125632678](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/localhost-server.png)
+![1531125632678](https://github.com/DeerKing007/Django_learning_notes/blob/master/Django_learning-notes/Django-notes-pic/localhost-server.png)
 
 
 
@@ -125,7 +125,7 @@ python manage.py runserver
 
 - 打开Pycharm，选择【File】->【New Project】->【Django】->【Location】->【Existing interprter】
 
-![Pycharm创建项目](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/Pycharm创建项目.png)
+![Pycharm创建项目](https://github.com/DeerKing007/Django_learning_notes/blob/master/Django_learning-notes/Django-notes-pic/Pycharm创建项目.png)
 
 ```
 注意：Django在Mac上安装报错找不到manage.py文件时候先执行下面两句命令
@@ -218,7 +218,7 @@ M是指业务模型，V是指用户界面，C则是控制器，使用MVC的目�
 
 接下来我们需要向Django说明模板文件的路径，修改helloworld/settings.py，修改 TEMPLATES 中的 DIRS 为 `'DIRS': [os.path.join(BASE_DIR, 'templates')] `，如下所示:
 
-![1531128734303](https://github.com/DeerKing007/Django_learning-notes/blob/master/Django-notes-pic/templates路径设置.png)
+![1531128734303](https://github.com/DeerKing007/Django_learning_notes/blob/master/Django_learning-notes/Django-notes-pic/templates路径设置.png)
 
 #### 5、修改view.py
 
