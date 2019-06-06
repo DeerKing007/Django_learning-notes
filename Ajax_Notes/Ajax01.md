@@ -10,9 +10,9 @@
 
 - AJAX 请求最大的优点是在不重新加载整个页面的情况下，可以与服务器交换数据并**更新部分网页内容**。
 
-![regist_check](Ajax_pic\regist_check.gif)
+![regist_check](https://github.com/DeerKing007/Django_learning_notes/blob/master/Ajax_Notes/Ajax_pic/regist_check.gif)
 
-![1](Ajax_pic\queryuser.gif)
+![1](https://github.com/DeerKing007/Django_learning_notes/blob/master/Ajax_Notes/Ajax_pic/queryuser.gif)
 
 #### 2、传统请求
 
@@ -151,7 +151,7 @@ xhr.onreadystatechange=function()
 
 #### 3、Ajax工作原理
 
-![AJAX](Ajax_pic\Ajax工作原理.jpg) 
+![AJAX](https://github.com/DeerKing007/Django_learning_notes/blob/master/Ajax_Notes/Ajax_pic/Ajax工作原理.jpg) 
 
 
 
