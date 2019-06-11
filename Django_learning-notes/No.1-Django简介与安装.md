@@ -119,6 +119,12 @@ python manage.py runserver
 
 ![1531125632678](https://github.com/DeerKing007/Django_learning_notes/blob/master/Django_learning-notes/Django-notes-pic/localhost-server.png)
 
+```
+允许其他浏览器访问：
+修改settings.py
+ALLOWED_HOSTS = ['*']
+python manage.py runserver 0.0.0.0:8000
+```
 
 
 #### 2、Pycharm创建项目
