@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <script>
+        function checkName() {
+            nameval = document.getElementById("input_name").value;
+{#            console.log(nameval);#}
+
+            {#location.href = "{% url 'ajax:checkname' %}?name="+nameval#}
+
+{#            创建对象#}
+            var xhr;
+            if (window.XMLHttpRequest) {
+                xhr = new XMLHttpRequest()
+            }else if(window.ActiveXObject){
+                xhr = new ActiveXObject("Microsoft.XMLHTTP")
+            }
+{#            路径#}
+            url = "{% url 'ajax:checkname' %}?name="+nameval;
+
+            //get请求
+            //xhr.open("get",url,true)   //true:使用异步
+            //xhr.send()
+
+            //post请求
+            xhr.open("post","{% url 'ajax:checkname' %}",false);
+            xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            //xhr.setRequestHeader("X-CSRFToken","{{ csrf_token }}")
+            xhr.send("name="+nameval+"&csrfmiddlewaretoken="+"{{ csrf_token }}");
+
+            msgTag = document.getElementById("msg");
+            msgTag.innerHTML=xhr.responseText;
+            //alert(xhr.responseText)
+            //监听：服务器状态发生改变时，就自动调用该匿名函数
+            {#xhr.onreadystatechange = function () {#}
+            {#    if (xhr.readyState == 4 && xhr.status == 200) {#}
+            {#        console.log(xhr.responseText)#}
+            {#        msgTag = document.getElementById("msg")#}
+            {#        msgTag.innerHTML=xhr.responseText#}
+            {#    }#}
+{#            }#}
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="post" enctype="application/x-www-form-urlencoded">
+        用户名：<input type="text" name="username" onblur="checkName()" id="input_name">
+        <span id="msg"></span> <br>
+        密码：<input type="password" name="userpwd"><br>
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>
